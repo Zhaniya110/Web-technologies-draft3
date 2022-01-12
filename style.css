@@ -1,0 +1,272 @@
+@import url("https://fonts.googleapis.com/css2?family=Almendra&family=Caesar+Dressing&family=Raleway:wght@300;400&display=swap");
+.main-header {
+  background-color: rgba(0, 0, 0, 0.6);
+  background-image: url("/img/header.jpg");
+  background: cover;
+  background-blend-mode: multiply;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Metal+Mania&display=swap");
+@font-face {
+  font-family: "Vooterzz";
+  src: url("/fonts/Vooterzz.woff") format("woff"),
+    url("/fonts/Booterzz2.woff2") format("woff2");
+  font-weight: bold;
+  font-style: normal;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+.nav ul {
+  margin: 0;
+}
+
+* {
+  box-sizing: border-box;
+  font-family: "Raleway", sans-serif;
+  color: rgb(248, 237, 237);
+}
+
+.nav li {
+  display: inline;
+}
+
+.nav a {
+  display: inline-block;
+  padding: 0.5em;
+  color: white;
+  text-decoration: none;
+}
+.nav a:hover {
+  background-color: rgba(250, 243, 243, 0.3);
+}
+.main-nav {
+  text-align: center;
+  font-size: 1.1em;
+  font-weight: lighter;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+.main-nav li {
+  padding: 0 5%;
+}
+
+.band-name {
+  text-align: center;
+  margin: 0;
+  font-size: 2em;
+  font-family: "Vooterzz";
+  color: white;
+}
+
+.band-name-large {
+  font-size: 9em;
+}
+
+.content-section {
+  margin: 1em;
+}
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 0 1.5em;
+}
+h2 {
+  font-family: "Metal Mania";
+  font-weight: normal;
+  text-align: center;
+  font-size: 1.5em;
+}
+
+.about-band-image {
+  float: left;
+  width: 200px;
+  height: 200px;
+  margin: 15px;
+  border-radius: 50%;
+  border: #99df16 3px;
+  border-style: ridge;
+}
+
+.main-footer {
+  background-color: #99df16;
+  color: white;
+  padding: 0.25em 0;
+}
+img {
+  width: 10vh;
+  height: 10vh;
+}
+
+.main-footer-container {
+  display: flex;
+  align-items: center;
+}
+
+.main-footer-container ul {
+  flex-grow: 1;
+  text-align: end;
+}
+
+.footer-nav li {
+  padding: 0 0.5em;
+}
+
+.footer-nav img {
+  width: 35px;
+  height: auto;
+}
+
+.contact {
+  background: #99df16;
+  font-style: normal;
+  margin: 2em auto 0;
+  padding: 0.5em 20px;
+  width: 13em;
+  color: rgb(54, 54, 54);
+}
+
+.content {
+  position: fixed;
+  background: cover;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  color: #f1f1f1;
+  width: 100%;
+  padding: 20px;
+  height: 100px;
+}
+
+/* Style the button used to pause/play the video */
+#myBtn {
+  width: 200px;
+  font-size: 18px;
+  padding: 10px;
+  border: none;
+  background: #000;
+  color: #fff;
+  cursor: pointer;
+}
+
+#myBtn:hover {
+  background: #ddd;
+  color: black;
+}
+#myVideo {
+  background: cover;
+  width: 100%;
+  height: 300px;
+}
+
+#background-video {
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: -1;
+}
+p {
+  color: rgb(31, 30, 30);
+  letter-spacing: 2px;
+  line-height: 2;
+  margin: 30px;
+  font-weight: 900;
+}
+
+h1,
+h2 {
+  color: white;
+  font-family: Trebuchet MS;
+  font-weight: bold;
+  text-align: center;
+}
+
+h1 {
+  font-size: 6rem;
+  margin-top: 30vh;
+}
+
+h2 {
+  font-size: 3rem;
+}
+
+@media (max-width: 750px) {
+  #background-video {
+    display: none;
+  }
+  body {
+    background: url("https://assets.codepen.io/6093409/river.jpg") no-repeat;
+    background-size: cover;
+  }
+}
+@media (max-width: 750px) {
+  .band-name-large {
+    font-size: 3em;
+  }
+
+  h2.section-header {
+    font-family: "Metal Mania";
+    font-weight: normal;
+    text-align: center;
+    font-size: 1.5em;
+
+    margin-bottom: 111px;
+    margin-top: 111px;
+  }
+
+  .main-nav {
+    font-size: 2em;
+    font-weight: lighter;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+  }
+}
+
+section.content-section.container {
+  margin-top: 200px;
+}
+
+.cont {
+  background-color: #99df16;
+  width: 100%;
+  padding: 15px;
+  border-radius: 20px;
+  margin: 50px;
+}
+
+h2.section-header {
+  font-family: "Metal Mania";
+  font-weight: normal;
+  text-align: center;
+  font-size: 1.5em;
+
+  margin-bottom: 50px;
+  margin-top: 111px;
+}
+
+span {
+  background-color: rgb(16, 9, 36);
+}
+img {
+  width: 300px;
+  height: auto;
+  margin: 20px;
+}
+.blur {
+  display: flex;
+  margin: 10px;
+  margin-bottom: 300px;
+}
+
+.blur img {
+  border: #000000 solid 10px;
+  border-radius: 20px;
+  box-shadow: rgba(240, 46, 170, 0.4) 5px 5px, rgba(240, 46, 170, 0.3) 10px 10px,
+    rgba(240, 46, 170, 0.2) 15px 15px, rgba(240, 46, 170, 0.1) 20px 20px,
+    rgba(240, 46, 170, 0.05) 25px 25px;
+}

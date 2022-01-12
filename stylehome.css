@@ -1,0 +1,34 @@
+body {
+  margin: 0;
+  padding: 0%;
+  background-image: url("/img/4870509.jpg");
+  background: cover;
+}
+
+h1 {
+  color: aquamarine;
+  font-family: "Vooterzz";
+  text-align: center;
+  margin: 0;
+  font-size: 4em;
+  font-family: "Vooterzz";
+  margin-top: 300px;
+}
+h2 {
+  color: aquamarine;
+  font-family: "Vooterzz";
+  text-align: center;
+  margin: 0;
+  font-size: 3em;
+  font-family: "Vooterzz";
+  margin-top: 50px;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Metal+Mania&display=swap");
+@font-face {
+  font-family: "Vooterzz";
+  src: url("/fonts/Vooterzz.woff") format("woff"),
+    url("/fonts/Booterzz2.woff2") format("woff2");
+  font-weight: bold;
+  font-style: normal;
+}
